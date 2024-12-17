@@ -19,7 +19,7 @@ def create_transmission_posts(df):
     return df.groupby("Transmission")["Transmission"].value_counts()
 
 
-used_car_df = pd.read_csv("cleaned_dataset.csv")
+used_car_df = pd.read_csv("assignment-ml\\cleaned_dataset.csv")
 
 used_car_df["PostedDate"] = pd.to_datetime(used_car_df["PostedDate"])
 

@@ -54,7 +54,6 @@ Pygments==2.18.0
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==306
 pyzmq==26.1.0
 referencing==0.35.1
 requests==2.32.3
@@ -64,7 +63,7 @@ seaborn==0.13.2
 six==1.16.0
 smmap==5.0.1
 stack-data==0.6.3
-streamlit==1.38.0
+streamlit==1.41.0
 tenacity==8.5.0
 toml==0.10.2
 tornado==6.4.1
